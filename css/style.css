@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+html {
+    font-size: 70%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 1.6rem;
+    position: relative;
+}
+
+/** Block Menu **/
+
+.menu { 
+    background-color: #daffff;
+    line-height: 4rem;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    font-size: 1em;
+    color: #ddb100;
+}
+
+.menu nav ul {
+    margin-top: 51px;
+    line-height: 40px;
+}
+  
+.menu nav ul ul {
+    margin-top: auto;
+}
+  
+.menu nav ul li {
+    list-style: none;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.menu nav ul li a:hover {
+    color: rgba(255, 158, 11, 0.7);
+}
+
+.menu .sub-menu li{
+    list-style-type: circle;
+}
+
+/** Bloco Main **/
+
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.main-container {
+    width: 92%;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    color: #4d4d4d;    
+}
+
+.main-container p {
+    text-indent: 20px;
+    letter-spacing: 2px;
+    color: #4d4d4d;
+    line-height: 35px;   
+}
+
+.main-container #beneficios li {
+    list-style-type: circle;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color: #6a6969;
+    font-size: 1.7rem;
+}
+
+.content {
+    max-width: 1150px;
+    float: right;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    color: #4d4d4d;
+}
+
+.content div h3:nth-child(1) {
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+
+#o-que-e-vitaminad iframe {
+    display: block;
+    float: left;
+    justify-content: center;
+    margin: 15px 60px 0 0;
+    border: none;
+}
+
+/** Bloco Panorama Covid-19 **/
+
+#panorama-covid19 {
+    text-align: center;
+}
+
+/* Bloco Prevenção */
+
+.blc-img {
+    display: flex;
+}
+
+.blc-img li {
+    width: 225px;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+.blc-img li img {
+    width: 47%;
+}
+
+.blc-img li span {
+    width: 100%;
+    float: left;
+}
+
+#prevencao .blc-img-2 {
+    display: inline-block;
+    
+}
+
+.blc-img-2 li {
+    width: 100%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 56px;
+}
+
+.blc-img-2 img {
+    width: 105px;
+}
+
+.blc-img-2 li span {
+    width: 100%;
+    float: left;
+}
+
+/** Quadro Prevenção **/
+
+.prevencao-texto {
+    float: left;
+    width: 55%;
+    text-align: left;
+}
+
+.quadro-prevencao {
+    width: 42%;
+    float: right;
+    margin: 60px 0 0 30px;
+    font-size: 0.8em;
+}
+
+/** Bloco Epidemia vs Vitamina D **/
+
+#epidemia-vs-vitaminad {
+    display: inline-block;
+    margin: 45px 0 0 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.epidemia-vs-vitamad-texto {
+    float: right;
+    display: contents;
+}
+
+.quadro-epidemia-vs-vitaminad {
+    width: 36%;
+    float: left;
+    margin-bottom: -32px;
+}
+
+.quadro-epidemia-vs-vitaminad img {
+    width: 81%;
+}
+
+
+/** Bloco O que é Vitamina D **/
+
+#o-que-e-vitaminad {
+    margin: 85px 0 0 0;
+}
+
+#o-que-e-vitaminad h3:nth-child(1) {
+    text-align: left;
+}
+
+/** Bloco Como Age **/
+
+#como-age {
+    width: 87%;
+    text-align: center;
+}
+
+.como-age-texto {
+    width: 100%;
+    
+}
+
+.quadro-como-age {
+    width: 49%;
+    float: right;
+    margin-top: 10px;
+    margin-left: -61px;
+}
+
+.quadro-como-age img {
+    width: 73%;
+}
+
+/** Bloco Perguntas e Respostas **/
+
+.span-pergunta {
+    display: block;
+    text-transform: none;
+    color: #ddb100;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    line-height: 35px;
+    font-size: 1em;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.12), 0 0px 80px rgba(0, 0, 0, 0.03);
+}
+
+.span-resposta {
+    display: block;
+    text-transform: none;
+    color: #6a6969;
+    letter-spacing: 2px;
+    text-indent: 35px;
+    line-height: 35px;
+    font-size: 0.9em;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
